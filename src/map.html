@@ -1,0 +1,18 @@
+<script>
+const studentdate = [
+ {id:1 , name:"Mohammad Aryaam" ,degree:"BTECH"},
+ { id: 2, name: "Saif Ali", degree: "MTECH"},
+ { id: 3, name: "Tarique", degree: "BPHARMA"}
+]
+
+console.log(studentdate)
+
+const newArr = studentdate.map(cvalue=>{
+ // return cvalue.name;
+ return `My name is ${cvalue.name}`
+})
+
+console.log(newArr);
+document.write(newArr)
+
+</script>

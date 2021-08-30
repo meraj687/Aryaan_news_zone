@@ -1,0 +1,58 @@
+// import React from 'react'
+// import Card from './NetflixCard/Card'
+// import '../src/NetflixCard/Card.css'
+// import './NetflixCard/Sdata'
+// import Sdata from './NetflixCard/Sdata'
+// import Netflix from './NetflixCard/Netflix'
+// import Amazon from './NetflixCard/Amazon'
+// import UseState from './UseState/UseState'
+
+// console.log(Sdata)
+
+// const favSeries = 'amazon'
+
+// const FavS = () => {
+//   if (favSeries === 'netflix') {
+//     return <Netflix />
+//   } else {
+//     return <Amazon />
+//   }
+// }
+
+// function App() {
+//   return (
+//     <>
+{
+  /* <UseState /> */
+}
+{
+  /* <h1 className='heading_style'>List of top Netflix series in 2020</h1> */
+}
+{
+  /* {Sdata.map((val, index) => {
+        return (
+          <Card
+            key={val.id}
+            imgsrc={val.imgsrc}
+            title={val.title}
+            sname={val.sname}
+            link={val.link}
+          />
+        )
+      })} */
+}
+{
+  /* <FavS /> */
+}
+{
+  /* {favSeries === 'netflix' ? <Netflix /> : <Amazon />} */
+}
+
+//       <div>
+//         <button type='submit'>Clikc Me</button>
+//       </div>
+//     </>
+//   )
+// }
+
+// export default App
